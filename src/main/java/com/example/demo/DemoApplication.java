@@ -10,4 +10,9 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
     }
 
+    public void action() {
+        int x = 0;
+        x++;
+        System.out.println(x);
+    }
 }
