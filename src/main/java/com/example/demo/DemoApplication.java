@@ -11,8 +11,11 @@ public class DemoApplication {
     }
 
     public void action() {
-        int x = 0;
-        x++;
-        System.out.println(x);
+        int y = 0;
+        y++;
+        System.out.println(y);
+        System.out.println(String.format("1:%d", y));
+        System.out.println(String.format("02:%d", y));
+        System.out.println(String.format("03:%d", y));
     }
 }
