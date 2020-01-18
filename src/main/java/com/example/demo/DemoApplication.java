@@ -14,5 +14,6 @@ public class DemoApplication {
         int y = 0;
         y++;
         System.out.println(y);
+        System.out.println(String.format("1:%d", y));
     }
 }
